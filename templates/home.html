@@ -36,6 +36,7 @@
     </style>
   </head>
   <body>
+    {% include 'nav.html' %}
     <div id="container">
       <h1>{{company_name}} Careers</h1> 
       <img id="Azure" src="https://lewis-careers-website.yanjunli2.repl.co/static/Azure.jpg">
@@ -55,7 +56,7 @@
       </div>
       <div style="text-align:center;">
       <button class="btn btn-primary btn-lg">Contact Us</button>
-        <p class='mt-4'>Copyright 2022, Lewis</p>
     </div>
+    {% include 'footer.html' %}
   </body>
 </html>
